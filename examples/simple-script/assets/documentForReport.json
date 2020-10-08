@@ -1,596 +1,149 @@
 {
-	"title": "Sample.pdf",
-	"meta": {
-		"label": "Sample Job July 28th 2020, 5:20:38 pm"
-	},
-	"externals": {
-		"pngLogo": "http://localhost:8080/images/Logo%20in%20Menu.png",
-		"roboto-regular": "http://localhost:8080/images/Roboto-Regular.ttf",
-		"roboto-light": "http://localhost:8080/images/Roboto-Light.ttf",
-		"roboto-bold": "http://localhost:8080/images/Roboto-Bold.ttf"
-    },
-	"document": {
-		"embedded": {
-			"pages": [
+	"pages": [
+		{
+			"width": 595,
+			"height": 842,
+			"boxes": [
 				{
-					"width": 595,
-					"height": 842,
-					"boxes": [
-						{
-							"origin": "pageTop",
-							"top": 48,
-							"left": 40,
-							"text": {
-								"text": "K previsit summary",
-								"options": {
-									"fontSource": {
-										"name": "roboto-bold",
-										"origin": "external"
-									},
-									"size": 22,
-									"color": "#333333"
-								}
-							}
-						},
-						{
-							"origin": "pageTop",
-							"top": 36,
-							"left": 496,
-							"width": 58,
-							"height": 58,
-							"image": {
-								"source": "pngLogo",
-								"transformation": {"fit":"always"}
-							}
-						},						
-						{
-							"origin": "pageTop",
-							"top": 78,
-							"left": 40,
-							"text": {
-								"text": "Alex Libsker  |  Male  |  56 years old",
+					"origin": "pageTop",
+					"top": 48,
+					"left": 40,
+					"text": {
+						"text": "Visit summary",
+						"options": {
+							"fontSource": {
+								"name": "roboto-bold",
+								"origin": "external"
+							},
+							"size": 22,
+							"color": "#333333"
+						}
+					}
+				},
+				{
+					"origin": "pageTop",
+					"top": 36,
+					"left": 496,
+					"width": 58,
+					"height": 58,
+					"image": {
+						"source": "pngLogo",
+						"transformation": {"fit":"always"}
+					}
+				},						
+				{
+					"origin": "pageTop",
+					"top": 78,
+					"left": 40,
+					"text": {
+						"text": "Robert Smith  |  Male  |  54 years old",
+						"options": {
+							"fontSource": {
+								"name": "roboto-regular",
+								"origin": "external"
+							},
+							"size": 16,
+							"color": "#333333"
+						}
+					}
+
+				},
+				{
+					"origin": "pageTop",
+					"top": 133,
+					"left": 40,
+					"shape": {
+						"method": "rectangle",
+						"width": 515,
+						"height": 83,
+						"options": {
+							"type": "fill",
+							"color": "#F2F8FE"
+						}
+					}
+				},
+				{
+					"origin": "pageTop",
+					"top": 149,
+					"left": 56,
+					"text": {
+						"text": "Chief Complaint: Headache",
+						"options": {
+							"fontSource": {
+								"name": "roboto-bold",
+								"origin": "external"
+							},
+							"size": 14,
+							"color": "#333333"
+						}
+					}						
+				},
+				{
+					"origin": "pageTop",
+					"top": 172,
+					"left": 56,
+					"width":390,
+					"height":28,							
+					"stream": {
+						"items": [
+							{
+								"type":"text",
+								"text": "54 years old Lorem ipsum, or lipsum as it is sometimes known, is dummy text used.",
 								"options": {
 									"fontSource": {
 										"name": "roboto-regular",
 										"origin": "external"
 									},
-									"size": 16,
-									"color": "#333333"
-								}
-							}
-
-						},
-						{
-							"origin": "pageTop",
-							"top": 133,
-							"left": 40,
-							"shape": {
-					            "method": "rectangle",
-					            "width": 515,
-					            "height": 83,
-					            "options": {
-					                "type": "fill",
-					                "color": "#F2F8FE"
-					            }
-					        }
-						},
-						{
-							"origin": "pageTop",
-							"top": 149,
-							"left": 56,
-							"text": {
-								"text": "Chief Complaint: Goiter",
-								"options": {
-									"fontSource": {
-										"name": "roboto-bold",
-										"origin": "external"
-									},
-									"size": 14,
-									"color": "#333333"
-								}
-							}						
-						},
-						{
-							"origin": "pageTop",
-							"top": 172,
-							"left": 56,
-                            "width":390,
-                            "height":28,							
-							"stream": {
-								"items": [
-									{
-										"type":"text",
-										"text": "40 years old Lorem ipsum, or lipsum as it is sometimes known, is dummy text used.",
-										"options": {
-											"fontSource": {
-												"name": "roboto-regular",
-												"origin": "external"
-											},
-											"size": 12,
-											"color": "#333333"
-										}
-									}
-								]
-							}						
-						},
-						{
-							"origin": "pageTop",
-							"top": 240,
-							"left": 298,
-							"shape": {
-					            "method": "path",
-					            "width": 515,
-					            "height": 83,
-					            "points": [0,0,0,562],
-					            "options": {
-					                "type": "stroke",
-					                "width": 2,
-					                "color": "#EEEEEE"
-					            }
-					        }
-						},
-						{
-							"origin": "pageTop",
-							"top": 240,
-							"left": 40,
-							"text": {
-								"text": "Positive Symptoms",
-								"options": {
-									"fontSource": {
-										"name": "roboto-bold",
-										"origin": "external"
-									},
-									"size": 14,
-									"color": "#333333"
-								}
-							}						
-						},
-						{
-							"origin": "pageTop",
-							"top": 268,
-							"left": 40,
-                            "width":230,
-                            "id": "anchor",
-							"stream": {
-								"items": [
-									{
-										"type":"text",
-										"text": "Foot Pain: ",
-										"options": {
-											"fontSource": {
-												"name": "roboto-bold",
-												"origin": "external"
-											},
-											"size": 12,
-											"color": "#333333"
-										}
-									},
-									{
-										"type":"text",
-										"text": "Starting Time - In the last month; Side - One side; Made worse by - Standing, Walking; Trend - Worsening; Severity - Severe;",
-										"options": {
-											"fontSource": {
-												"name": "roboto-regular",
-												"origin": "external"
-											},
-											"size": 12,
-											"color": "#474747"
-										}
-									}									
-								]
-							}						
-						},
-						{
-							"top":{"box":"anchor","offset":-24},
-							"left": 40,
-							"id": "anchor",
-							"text": {
-								"text": "Negative Symptoms",
-								"options": {
-									"fontSource": {
-										"name": "roboto-bold",
-										"origin": "external"
-									},
-									"size": 14,
-									"color": "#333333"
-								}
-							}								
-						},
-						{
-							"top":{"box":"anchor","offset":-18},
-							"left": 40,
-                            "width":230,
-                            "id": "anchor",
-							"stream": {
-								"items": [
-									{
-										"type":"text",
-										"text": "HEENT: ",
-										"options": {
-											"fontSource": {
-												"name": "roboto-bold",
-												"origin": "external"
-											},
-											"size": 12,
-											"color": "#333333"
-										}
-									},
-									{
-										"type":"text",
-										"text": "Cheek pain",
-										"options": {
-											"fontSource": {
-												"name": "roboto-regular",
-												"origin": "external"
-											},
-											"size": 12,
-											"color": "#474747"
-										}
-									}									
-								]
-							}								
-						},
-						{
-							"top":{"box":"anchor","offset":-18},
-							"left": 40,
-                            "width":230,
-                            "id": "anchor",
-							"stream": {
-								"items": [
-									{
-										"type":"text",
-										"text": "GI: ",
-										"options": {
-											"fontSource": {
-												"name": "roboto-bold",
-												"origin": "external"
-											},
-											"size": 12,
-											"color": "#333333"
-										}
-									},
-									{
-										"type":"text",
-										"text": "Bottocks pain",
-										"options": {
-											"fontSource": {
-												"name": "roboto-regular",
-												"origin": "external"
-											},
-											"size": 12,
-											"color": "#474747"
-										}
-									}									
-								]
-							}								
-						},
-						{
-							"top":{"box":"anchor","offset":-18},
-							"left": 40,
-                            "width":230,
-                            "id": "anchor",
-							"stream": {
-								"items": [
-									{
-										"type":"text",
-										"text": "Musculoskeletal: ",
-										"options": {
-											"fontSource": {
-												"name": "roboto-bold",
-												"origin": "external"
-											},
-											"size": 12,
-											"color": "#333333"
-										}
-									},
-									{
-										"type":"text",
-										"text": "Joint pain, Joint swelling, Red joint, Back pain",
-										"options": {
-											"fontSource": {
-												"name": "roboto-regular",
-												"origin": "external"
-											},
-											"size": 12,
-											"color": "#474747"
-										}
-									}									
-								]
-							}								
-						},
-						{
-							"top":{"box":"anchor","offset":-18},
-							"left": 40,
-                            "width":230,
-                            "id": "anchor",
-							"stream": {
-								"items": [
-									{
-										"type":"text",
-										"text": "Extremities: ",
-										"options": {
-											"fontSource": {
-												"name": "roboto-bold",
-												"origin": "external"
-											},
-											"size": 12,
-											"color": "#333333"
-										}
-									},
-									{
-										"type":"text",
-										"text": "Leg pain, Thigh pain, Knee pain, Ankle pain, Foot swelling",
-										"options": {
-											"fontSource": {
-												"name": "roboto-regular",
-												"origin": "external"
-											},
-											"size": 12,
-											"color": "#474747"
-										}
-									}									
-								]
-							}								
-						},
-						{
-							"top":{"box":"anchor","offset":-18},
-							"left": 40,
-                            "width":230,
-                            "id": "anchor",
-							"stream": {
-								"items": [
-									{
-										"type":"text",
-										"text": "Genitourinary: ",
-										"options": {
-											"fontSource": {
-												"name": "roboto-bold",
-												"origin": "external"
-											},
-											"size": 12,
-											"color": "#333333"
-										}
-									},
-									{
-										"type":"text",
-										"text": "Flank pain",
-										"options": {
-											"fontSource": {
-												"name": "roboto-regular",
-												"origin": "external"
-											},
-											"size": 12,
-											"color": "#474747"
-										}
-									}									
-								]
-							}								
-						},
-						{
-							"top":{"box":"anchor","offset":-18},
-							"left": 40,
-                            "width":230,
-                            "id": "anchor",
-							"stream": {
-								"items": [
-									{
-										"type":"text",
-										"text": "Neuro: ",
-										"options": {
-											"fontSource": {
-												"name": "roboto-bold",
-												"origin": "external"
-											},
-											"size": 12,
-											"color": "#333333"
-										}
-									},
-									{
-										"type":"text",
-										"text": "Numbness or tingling in feet",
-										"options": {
-											"fontSource": {
-												"name": "roboto-regular",
-												"origin": "external"
-											},
-											"size": 12,
-											"color": "#474747"
-										}
-									}									
-								]
-							}								
-						},
-						{
-							"origin": "pageTop",
-							"top": 240,
-							"left": 325,
-							"text": {
-								"text": "K assessment",
-								"options": {
-									"fontSource": {
-										"name": "roboto-bold",
-										"origin": "external"
-									},
-									"size": 14,
-									"color": "#333333"
-								}
-							}						
-						},
-						{
-							"origin": "pageTop",
-							"top": 268,
-							"left": 325,
-                            "width":230,
-                            "id": "anchor",
-							"stream": {
-								"items": [
-									{
-										"type":"text",
-										"text": "These percentages represent how similar patients were diagnosed in the past by healthcare professionals at a leading HMO. They do not indicate the likelihood a patient has any particular condition.",
-										"options": {
-											"fontSource": {
-												"name": "roboto-regular",
-												"origin": "external"
-											},
-											"size": 12,
-											"color": "#747474"
-										}
-									}									
-								]
-							}						
-						},
-						{
-							"top":{"box":"anchor","offset":-30},
-							"left": 325,
-							"shape": {
-					            "method": "rectangle",
-					            "width": 239,
-					            "height": 64,
-					            "options": {
-					                "type": "fill",
-					                "color": "#F5F5F5"
-					            }
-					        }
-						},
-						{
-							"top":{"box":"anchor","offset":-42},
-							"left": 330,
-							"shape": {
-					            "method": "circle",
-					            "radius": 20,
-					            "options": {
-					                "type": "fill",
-					                "color": "#DF523F"
-					            }
-					        }
-						},
-						{
-							"top":{"box":"anchor","offset":-56},
-							"left": 330,
-							"width": 40,
-							"alignment": "center",
-							"text": {
-								"text": "57%",
-								"options": {
-									"fontSource": {
-										"name": "roboto-bold",
-										"origin": "external"
-									},
-									"size": 14,
-									"color": "white"
-								}
-							}
-						},
-						{
-							"top":{"box":"anchor","offset":-46},
-							"left": 376,
-							"text": {
-								"text": "General Abdominal Pain NOS",
-								"options": {
-									"fontSource": {
-										"name": "roboto-bold",
-										"origin": "external"
-									},
 									"size": 12,
 									"color": "#333333"
 								}
 							}
-						},
-						{
-							"top":{"box":"anchor","offset":-62},
-							"id": "seriousAnchor",
-							"left": 376,
-							"text": {
+						]
+					}						
+				},
+				{
+					"origin": "pageTop",
+					"top": 240,
+					"left": 298,
+					"shape": {
+						"method": "path",
+						"width": 515,
+						"height": 83,
+						"points": [0,0,0,562],
+						"options": {
+							"type": "stroke",
+							"width": 2,
+							"color": "#EEEEEE"
+						}
+					}
+				},
+				{
+					"origin": "pageTop",
+					"top": 240,
+					"left": 40,
+					"text": {
+						"text": "Positive Symptoms",
+						"options": {
+							"fontSource": {
+								"name": "roboto-bold",
+								"origin": "external"
+							},
+							"size": 14,
+							"color": "#333333"
+						}
+					}						
+				},
+				{
+					"origin": "pageTop",
+					"top": 268,
+					"left": 40,
+					"width":230,
+					"id": "anchor",
+					"stream": {
+						"items": [
+							{
 								"type":"text",
-								"text": "Serious Health Condition!",
-								"options": {
-									"fontSource": {
-										"name": "roboto-bold",
-										"origin": "external"
-									},
-									"size": 12,
-									"color": "#E6716E"
-								}
-							}
-						},
-						{
-							"top":{"box":"anchor","offset":-58},
-							"left": {"box":"seriousAnchor", "offset": 7},
-							"shape": {
-					            "method": "circle",
-					            "radius": 8,
-					            "options": {
-					                "type": "fill",
-					                "color": "#DF523F"
-					            }
-				            }
-						},						
-						{
-							"top":{"box":"anchor","offset":-54},
-							"left": {"box":"seriousAnchor", "offset": 7},
-							"alignment": "center",
-							"width": 16,
-							"height": 16,
-							"text": {
-								"text": "!",
-								"options": {
-									"fontSource": {
-										"name": "roboto-bold",
-										"origin": "external"
-									},
-									"size": 12,
-									"color": "white"
-								}
-				            }
-						},
-						{
-							"top":{"box":"anchor","offset":-94},
-							"left": 325,
-							"id":"anchor",
-							"shape": {
-					            "method": "path",
-					            "points": [0,0,230,0],
-					            "options": {
-					                "type": "stroke",
-					                "width": 1,
-					                "color": "#F6F6F6"
-					            }
-					        }						
-						},
-																		{
-							"top":{"box":"anchor","offset":-12},
-							"left": 330,
-							"shape": {
-					            "method": "circle",
-					            "radius": 20,
-					            "options": {
-					                "type": "fill",
-					                "color": "#4790F7"
-					            }
-					        }
-						},
-						{
-							"top":{"box":"anchor","offset":-26},
-							"left": 330,
-							"width": 40,
-							"alignment": "center",
-							"text": {
-								"text": "16%",
-								"options": {
-									"fontSource": {
-										"name": "roboto-bold",
-										"origin": "external"
-									},
-									"size": 14,
-									"color": "white"
-								}
-							}
-						},
-						{
-							"top":{"box":"anchor","offset":-26},
-							"left": 376,
-							"text": {
-								"text": "Ovarian Cyst",
+								"text": "Foot Pain: ",
 								"options": {
 									"fontSource": {
 										"name": "roboto-bold",
@@ -599,130 +152,10 @@
 									"size": 12,
 									"color": "#333333"
 								}
-							}
-						},
-						{
-							"top":{"box":"anchor","offset":-64},
-							"left": 325,
-							"id":"anchor",
-							"shape": {
-					            "method": "path",
-					            "points": [0,0,230,0],
-					            "options": {
-					                "type": "stroke",
-					                "width": 1,
-					                "color": "#F6F6F6"
-					            }
-					        }						
-						},
-																		{
-							"top":{"box":"anchor","offset":-12},
-							"left": 330,
-							"shape": {
-					            "method": "circle",
-					            "radius": 20,
-					            "options": {
-					                "type": "fill",
-					                "color": "#4790F7"
-					            }
-					        }
-						},
-						{
-							"top":{"box":"anchor","offset":-26},
-							"left": 330,
-							"width": 40,
-							"alignment": "center",
-							"text": {
-								"text": "12%",
-								"options": {
-									"fontSource": {
-										"name": "roboto-bold",
-										"origin": "external"
-									},
-									"size": 14,
-									"color": "white"
-								}
-							}
-						},
-						{
-							"top":{"box":"anchor","offset":-26},
-							"left": 376,
-							"text": {
-								"text": "Kidney Stone",
-								"options": {
-									"fontSource": {
-										"name": "roboto-bold",
-										"origin": "external"
-									},
-									"size": 12,
-									"color": "#333333"
-								}
-							}
-						},
-						{
-							"top":{"box":"anchor","offset":-64},
-							"left": 325,
-							"id":"anchor",
-							"shape": {
-					            "method": "path",
-					            "points": [0,0,230,0],
-					            "options": {
-					                "type": "stroke",
-					                "width": 1,
-					                "color": "#F6F6F6"
-					            }
-					        }						
-						},
-																		{
-							"top":{"box":"anchor","offset":-12},
-							"left": 330,
-							"shape": {
-					            "method": "circle",
-					            "radius": 20,
-					            "options": {
-					                "type": "fill",
-					                "color": "#AACEFB"
-					            }
-					        }
-						},
-						{
-							"top":{"box":"anchor","offset":-26},
-							"left": 330,
-							"width": 40,
-							"alignment": "center",
-							"text": {
-								"text": "+",
-								"options": {
-									"fontSource": {
-										"name": "roboto-light",
-										"origin": "external"
-									},
-									"size": 24,
-									"color": "white"
-								}
-							}
-						},
-						{
-							"top":{"box":"anchor","offset":-16},
-							"left": 376,
-							"text": {
-								"text": "Other Possibilities",
-								"options": {
-									"fontSource": {
-										"name": "roboto-bold",
-										"origin": "external"
-									},
-									"size": 12,
-									"color": "#333333"
-								}
-							}
-						},
-						{
-							"top":{"box":"anchor","offset":-32},
-							"left": 376,
-							"text": {
+							},
+							{
 								"type":"text",
-								"text": "Lorem ipsum dolor",
+								"text": "Starting Time - In the last month; Side - One side; Made worse by - Standing, Walking; Trend - Worsening; Severity - Severe;",
 								"options": {
 									"fontSource": {
 										"name": "roboto-regular",
@@ -731,11 +164,564 @@
 									"size": 12,
 									"color": "#474747"
 								}
-							}
+							}									
+						]
+					}						
+				},
+				{
+					"top":{"box":"anchor","offset":-24},
+					"left": 40,
+					"id": "anchor",
+					"text": {
+						"text": "Negative Symptoms",
+						"options": {
+							"fontSource": {
+								"name": "roboto-bold",
+								"origin": "external"
+							},
+							"size": 14,
+							"color": "#333333"
 						}
-					]
+					}								
+				},
+				{
+					"top":{"box":"anchor","offset":-18},
+					"left": 40,
+					"width":230,
+					"id": "anchor",
+					"stream": {
+						"items": [
+							{
+								"type":"text",
+								"text": "HEENT: ",
+								"options": {
+									"fontSource": {
+										"name": "roboto-bold",
+										"origin": "external"
+									},
+									"size": 12,
+									"color": "#333333"
+								}
+							},
+							{
+								"type":"text",
+								"text": "Cheek pain",
+								"options": {
+									"fontSource": {
+										"name": "roboto-regular",
+										"origin": "external"
+									},
+									"size": 12,
+									"color": "#474747"
+								}
+							}									
+						]
+					}								
+				},
+				{
+					"top":{"box":"anchor","offset":-18},
+					"left": 40,
+					"width":230,
+					"id": "anchor",
+					"stream": {
+						"items": [
+							{
+								"type":"text",
+								"text": "GI: ",
+								"options": {
+									"fontSource": {
+										"name": "roboto-bold",
+										"origin": "external"
+									},
+									"size": 12,
+									"color": "#333333"
+								}
+							},
+							{
+								"type":"text",
+								"text": "Bottocks pain",
+								"options": {
+									"fontSource": {
+										"name": "roboto-regular",
+										"origin": "external"
+									},
+									"size": 12,
+									"color": "#474747"
+								}
+							}									
+						]
+					}								
+				},
+				{
+					"top":{"box":"anchor","offset":-18},
+					"left": 40,
+					"width":230,
+					"id": "anchor",
+					"stream": {
+						"items": [
+							{
+								"type":"text",
+								"text": "Musculoskeletal: ",
+								"options": {
+									"fontSource": {
+										"name": "roboto-bold",
+										"origin": "external"
+									},
+									"size": 12,
+									"color": "#333333"
+								}
+							},
+							{
+								"type":"text",
+								"text": "Joint pain, Joint swelling, Red joint, Back pain",
+								"options": {
+									"fontSource": {
+										"name": "roboto-regular",
+										"origin": "external"
+									},
+									"size": 12,
+									"color": "#474747"
+								}
+							}									
+						]
+					}								
+				},
+				{
+					"top":{"box":"anchor","offset":-18},
+					"left": 40,
+					"width":230,
+					"id": "anchor",
+					"stream": {
+						"items": [
+							{
+								"type":"text",
+								"text": "Extremities: ",
+								"options": {
+									"fontSource": {
+										"name": "roboto-bold",
+										"origin": "external"
+									},
+									"size": 12,
+									"color": "#333333"
+								}
+							},
+							{
+								"type":"text",
+								"text": "Leg pain, Thigh pain, Knee pain, Ankle pain, Foot swelling",
+								"options": {
+									"fontSource": {
+										"name": "roboto-regular",
+										"origin": "external"
+									},
+									"size": 12,
+									"color": "#474747"
+								}
+							}									
+						]
+					}								
+				},
+				{
+					"top":{"box":"anchor","offset":-18},
+					"left": 40,
+					"width":230,
+					"id": "anchor",
+					"stream": {
+						"items": [
+							{
+								"type":"text",
+								"text": "Genitourinary: ",
+								"options": {
+									"fontSource": {
+										"name": "roboto-bold",
+										"origin": "external"
+									},
+									"size": 12,
+									"color": "#333333"
+								}
+							},
+							{
+								"type":"text",
+								"text": "Flank pain",
+								"options": {
+									"fontSource": {
+										"name": "roboto-regular",
+										"origin": "external"
+									},
+									"size": 12,
+									"color": "#474747"
+								}
+							}									
+						]
+					}								
+				},
+				{
+					"top":{"box":"anchor","offset":-18},
+					"left": 40,
+					"width":230,
+					"id": "anchor",
+					"stream": {
+						"items": [
+							{
+								"type":"text",
+								"text": "Neuro: ",
+								"options": {
+									"fontSource": {
+										"name": "roboto-bold",
+										"origin": "external"
+									},
+									"size": 12,
+									"color": "#333333"
+								}
+							},
+							{
+								"type":"text",
+								"text": "Numbness or tingling in feet",
+								"options": {
+									"fontSource": {
+										"name": "roboto-regular",
+										"origin": "external"
+									},
+									"size": 12,
+									"color": "#474747"
+								}
+							}									
+						]
+					}								
+				},
+				{
+					"origin": "pageTop",
+					"top": 240,
+					"left": 325,
+					"text": {
+						"text": "Doctor Assessment",
+						"options": {
+							"fontSource": {
+								"name": "roboto-bold",
+								"origin": "external"
+							},
+							"size": 14,
+							"color": "#333333"
+						}
+					}						
+				},
+				{
+					"origin": "pageTop",
+					"top": 268,
+					"left": 325,
+					"width":230,
+					"id": "anchor",
+					"stream": {
+						"items": [
+							{
+								"type":"text",
+								"text": "These percentages represent how similar patients were diagnosed in the past by healthcare professionals at a leading HMO. They do not indicate the likelihood a patient has any particular condition.",
+								"options": {
+									"fontSource": {
+										"name": "roboto-regular",
+										"origin": "external"
+									},
+									"size": 12,
+									"color": "#747474"
+								}
+							}									
+						]
+					}						
+				},
+				{
+					"top":{"box":"anchor","offset":-30},
+					"left": 325,
+					"shape": {
+						"method": "rectangle",
+						"width": 239,
+						"height": 64,
+						"options": {
+							"type": "fill",
+							"color": "#F5F5F5"
+						}
+					}
+				},
+				{
+					"top":{"box":"anchor","offset":-42},
+					"left": 330,
+					"shape": {
+						"method": "circle",
+						"radius": 20,
+						"options": {
+							"type": "fill",
+							"color": "#DF523F"
+						}
+					}
+				},
+				{
+					"top":{"box":"anchor","offset":-56},
+					"left": 330,
+					"width": 40,
+					"alignment": "center",
+					"text": {
+						"text": "57%",
+						"options": {
+							"fontSource": {
+								"name": "roboto-bold",
+								"origin": "external"
+							},
+							"size": 14,
+							"color": "white"
+						}
+					}
+				},
+				{
+					"top":{"box":"anchor","offset":-46},
+					"left": 376,
+					"text": {
+						"text": "General Abdominal Pain NOS",
+						"options": {
+							"fontSource": {
+								"name": "roboto-bold",
+								"origin": "external"
+							},
+							"size": 12,
+							"color": "#333333"
+						}
+					}
+				},
+				{
+					"top":{"box":"anchor","offset":-62},
+					"id": "seriousAnchor",
+					"left": 376,
+					"text": {
+						"type":"text",
+						"text": "Serious Health Condition!",
+						"options": {
+							"fontSource": {
+								"name": "roboto-bold",
+								"origin": "external"
+							},
+							"size": 12,
+							"color": "#E6716E"
+						}
+					}
+				},
+				{
+					"top":{"box":"anchor","offset":-58},
+					"left": {"box":"seriousAnchor", "offset": 7},
+					"shape": {
+						"method": "circle",
+						"radius": 8,
+						"options": {
+							"type": "fill",
+							"color": "#DF523F"
+						}
+					}
+				},						
+				{
+					"top":{"box":"anchor","offset":-54},
+					"left": {"box":"seriousAnchor", "offset": 7},
+					"alignment": "center",
+					"width": 16,
+					"height": 16,
+					"text": {
+						"text": "!",
+						"options": {
+							"fontSource": {
+								"name": "roboto-bold",
+								"origin": "external"
+							},
+							"size": 12,
+							"color": "white"
+						}
+					}
+				},
+				{
+					"top":{"box":"anchor","offset":-94},
+					"left": 325,
+					"id":"anchor",
+					"shape": {
+						"method": "path",
+						"points": [0,0,230,0],
+						"options": {
+							"type": "stroke",
+							"width": 1,
+							"color": "#F6F6F6"
+						}
+					}						
+				},
+				{
+					"top":{"box":"anchor","offset":-12},
+					"left": 330,
+					"shape": {
+						"method": "circle",
+						"radius": 20,
+						"options": {
+							"type": "fill",
+							"color": "#4790F7"
+						}
+					}
+				},
+				{
+					"top":{"box":"anchor","offset":-26},
+					"left": 330,
+					"width": 40,
+					"alignment": "center",
+					"text": {
+						"text": "16%",
+						"options": {
+							"fontSource": {
+								"name": "roboto-bold",
+								"origin": "external"
+							},
+							"size": 14,
+							"color": "white"
+						}
+					}
+				},
+				{
+					"top":{"box":"anchor","offset":-26},
+					"left": 376,
+					"text": {
+						"text": "Ovarian Cyst",
+						"options": {
+							"fontSource": {
+								"name": "roboto-bold",
+								"origin": "external"
+							},
+							"size": 12,
+							"color": "#333333"
+						}
+					}
+				},
+				{
+					"top":{"box":"anchor","offset":-64},
+					"left": 325,
+					"id":"anchor",
+					"shape": {
+						"method": "path",
+						"points": [0,0,230,0],
+						"options": {
+							"type": "stroke",
+							"width": 1,
+							"color": "#F6F6F6"
+						}
+					}						
+				},
+				{
+					"top":{"box":"anchor","offset":-12},
+					"left": 330,
+					"shape": {
+						"method": "circle",
+						"radius": 20,
+						"options": {
+							"type": "fill",
+							"color": "#4790F7"
+						}
+					}
+				},
+				{
+					"top":{"box":"anchor","offset":-26},
+					"left": 330,
+					"width": 40,
+					"alignment": "center",
+					"text": {
+						"text": "12%",
+						"options": {
+							"fontSource": {
+								"name": "roboto-bold",
+								"origin": "external"
+							},
+							"size": 14,
+							"color": "white"
+						}
+					}
+				},
+				{
+					"top":{"box":"anchor","offset":-26},
+					"left": 376,
+					"text": {
+						"text": "Kidney Stone",
+						"options": {
+							"fontSource": {
+								"name": "roboto-bold",
+								"origin": "external"
+							},
+							"size": 12,
+							"color": "#333333"
+						}
+					}
+				},
+				{
+					"top":{"box":"anchor","offset":-64},
+					"left": 325,
+					"id":"anchor",
+					"shape": {
+						"method": "path",
+						"points": [0,0,230,0],
+						"options": {
+							"type": "stroke",
+							"width": 1,
+							"color": "#F6F6F6"
+						}
+					}						
+				},
+				{
+					"top":{"box":"anchor","offset":-12},
+					"left": 330,
+					"shape": {
+						"method": "circle",
+						"radius": 20,
+						"options": {
+							"type": "fill",
+							"color": "#AACEFB"
+						}
+					}
+				},
+				{
+					"top":{"box":"anchor","offset":-26},
+					"left": 330,
+					"width": 40,
+					"alignment": "center",
+					"text": {
+						"text": "+",
+						"options": {
+							"fontSource": {
+								"name": "roboto-light",
+								"origin": "external"
+							},
+							"size": 24,
+							"color": "white"
+						}
+					}
+				},
+				{
+					"top":{"box":"anchor","offset":-16},
+					"left": 376,
+					"text": {
+						"text": "Other Possibilities",
+						"options": {
+							"fontSource": {
+								"name": "roboto-bold",
+								"origin": "external"
+							},
+							"size": 12,
+							"color": "#333333"
+						}
+					}
+				},
+				{
+					"top":{"box":"anchor","offset":-32},
+					"left": 376,
+					"text": {
+						"type":"text",
+						"text": "Lorem ipsum dolor",
+						"options": {
+							"fontSource": {
+								"name": "roboto-regular",
+								"origin": "external"
+							},
+							"size": 12,
+							"color": "#474747"
+						}
+					}
 				}
 			]
 		}
-	}
+	]
 }

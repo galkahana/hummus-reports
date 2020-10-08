@@ -6,12 +6,12 @@ const ASSETS_FOLDER = '../assets'
 
 const ASSETS_MAP = {
     '!': path.resolve(__dirname, ASSETS_FOLDER, '!.pdf'),
-    'pngLogo': path.resolve(__dirname, ASSETS_FOLDER, 'Logo in Menu.pdf'),
+    'pngLogo': path.resolve(__dirname, ASSETS_FOLDER, 'original.png'),
     'roboto-regular': path.resolve(__dirname, ASSETS_FOLDER, 'Roboto-Regular.ttf'),
     'roboto-light': path.resolve(__dirname, ASSETS_FOLDER, 'Roboto-Light.ttf'),
-    'roboto-bold': path.resolve(__dirname, ASSETS_FOLDER, 'Roboto-Bold.ttf'),
-    'ploni-regular': path.resolve(__dirname, ASSETS_FOLDER, 'PloniDL1.1AAA-Regular.otf')
+    'roboto-bold': path.resolve(__dirname, ASSETS_FOLDER, 'Roboto-Bold.ttf')
 }
+
 
 const generatePDFPreview = (req, res) => {
     const engine = new PDFEngine(ASSETS_MAP)

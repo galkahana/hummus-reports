@@ -3,14 +3,17 @@ const path = require('path')
 const { PDFWStreamForFile } = require('hummus')
 const { PDFEngine } = require('../../')
 
+
+const ASSETS_FOLDER = './assets'
+
 async function createPDFFile() {
-    const jobTicket = require('./assets/documentForReportBidi.json')
+    const jobTicket = require('./assets/documentForReport.json')
     const assetsMap = {
-        'pngLogo': path.resolve(__dirname, './assets/Logo in Menu.png'),
-        'roboto-regular': path.resolve(__dirname, './assets/Roboto-Regular.ttf'),
-        'roboto-light': path.resolve(__dirname, './assets/Roboto-Light.ttf'),
-        'roboto-bold': path.resolve(__dirname, './assets/Roboto-Bold.ttf'),
-        'ploni-regular': path.resolve(__dirname, './assets/PloniDL1.1AAA-Regular.otf')
+        '!': path.resolve(__dirname, ASSETS_FOLDER, '!.pdf'),
+        'pngLogo': path.resolve(__dirname, ASSETS_FOLDER, 'original.png'),
+        'roboto-regular': path.resolve(__dirname, ASSETS_FOLDER, 'Roboto-Regular.ttf'),
+        'roboto-light': path.resolve(__dirname, ASSETS_FOLDER, 'Roboto-Light.ttf'),
+        'roboto-bold': path.resolve(__dirname, ASSETS_FOLDER, 'Roboto-Bold.ttf')
     }
 
     const engine = new PDFEngine(assetsMap)
