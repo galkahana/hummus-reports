@@ -1,12 +1,12 @@
 {
   "name": "hummus-reports",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Layout engine over hummus pdf library",
   "main": "index.js",
   "publishConfig": { "registry": "https://registry.npmjs.org/" },
   "repository": {
     "type": "git",
-    "url": "git://github.com/galkahana/hummues-reports.git",
+    "url": "git://github.com/galkahana/hummus-reports.git",
     "directory": "."
   },  
   "scripts": {
