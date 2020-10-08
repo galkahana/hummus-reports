@@ -1,0 +1,27 @@
+{
+  "plugins": ["node", "import"],
+  "extends": ["eslint:recommended", "plugin:node/recommended"],
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "settings": {
+    "import/resolver": {
+      "webpack": {}
+    }
+  },
+  "rules": {
+    "node/exports-style": ["error", "module.exports"],
+    "indent": [
+      "error",
+      4,
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "semi": ["error", "never"],
+    "no-console": "off",
+    "no-process-exit": "off",
+    "node/no-missing-require": "off"
+  }
+}

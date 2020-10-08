@@ -1,0 +1,25 @@
+.container {
+    display:flex;
+    flex-direction: column;
+    height:100vh;
+}
+
+.list-unstyled 
+{
+    list-style: none;
+}
+
+.list-unstyled>li
+{
+    padding:4px;
+}
+
+.editor {
+    display: flex;
+    flex-direction: row;
+    flex:1;
+}
+
+.editor-cell {
+    flex:1;
+}

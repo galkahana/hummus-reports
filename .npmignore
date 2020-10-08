@@ -1,0 +1,25 @@
+# what's in gitignore
+
+# OSX
+#
+.DS_Store
+
+# node.js
+#
+node_modules/
+npm-debug.log
+
+output/
+
+.env*
+
+.etc
+
+
+# and also stuff that shouldn't be imported
+examples
+.eslint*
+.vscode
+docs
+package-lock.json
+.vscode
