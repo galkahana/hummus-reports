@@ -42,7 +42,7 @@ Where makes sense (mostly in case where images or streams are placed) provide al
 
 ## Coordinates system
 
-The placement coordinates are using a cartesian system by default where an increased horizontal coordination describes an element closer to the page top. This is true to all coordinates in the service - always cartesian.
+The default placement coordinates are using a cartesian system by default where an increased horizontal coordination describes an element closer to the page top. read below in "Alternative Positioning" about using screen placement-like coordinates.
 
 
 ## Defining multiple items in the same box
@@ -107,7 +107,7 @@ You can use `top` instead of `bottom` when defining a box vertical positioning. 
 
 `bottom` or `top` position can be defined refering to the distance from the page top. To do this add `origin` entry to the box object with the value `pageTop`. In most cases it would go togather with using the `top` property for a box instead of `bottom`.
 
-## Anchor box left ot top to another box right or bottom
+## Anchor box left top to another box right or bottom
 
 Killer feature time. When creating documents that contain content that you build of the fly, the last thing you want to do is provide exact positioing for that dynamic content. The report engine provides the flexible notion of "anchoring" a box top or left to another box bottom or right corners. This is quite helpful in creating cells of a table, or just any content that comes below or to the right of something that you don't really feel like computing its width or height (or count) in advance.
 
