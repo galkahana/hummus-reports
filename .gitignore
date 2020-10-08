@@ -12,3 +12,5 @@ output/
 .env*
 
 .etc
+
+package-lock.json
