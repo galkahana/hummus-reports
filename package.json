@@ -3,12 +3,14 @@
   "version": "1.0.1",
   "description": "Layout engine over hummus pdf library",
   "main": "index.js",
-  "publishConfig": { "registry": "https://registry.npmjs.org/" },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/galkahana/hummus-reports.git",
     "directory": "."
-  },  
+  },
   "scripts": {
     "lint": "eslint ."
   },
@@ -19,7 +21,7 @@
     "pdf",
     "pdfhummus"
   ],
-  "readmeFilename": "README.md",  
+  "readmeFilename": "README.md",
   "license": "Apache-2.0",
   "author": "Gal Kahana <gal.kahana@hotmail.com>",
   "devDependencies": {

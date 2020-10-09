@@ -9,12 +9,9 @@
 					"top": 48,
 					"left": 40,
 					"text": {
-						"text": "Visit summary",
+						"text": "Visit Report",
 						"options": {
-							"fontSource": {
-								"name": "roboto-bold",
-								"origin": "external"
-							},
+							"fontSource":"roboto-bold",
 							"size": 22,
 							"color": "#333333"
 						}
@@ -38,10 +35,7 @@
 					"text": {
 						"text": "Robert Smith  |  Male  |  54 years old",
 						"options": {
-							"fontSource": {
-								"name": "roboto-regular",
-								"origin": "external"
-							},
+							"fontSource": "roboto-regular",
 							"size": 16,
 							"color": "#333333"
 						}
@@ -58,7 +52,7 @@
 						"height": 83,
 						"options": {
 							"type": "fill",
-							"color": "#F2F8FE"
+							"color": "#e8d2bc"
 						}
 					}
 				},
@@ -69,10 +63,7 @@
 					"text": {
 						"text": "Chief Complaint: Headache",
 						"options": {
-							"fontSource": {
-								"name": "roboto-bold",
-								"origin": "external"
-							},
+							"fontSource": "roboto-bold",
 							"size": 14,
 							"color": "#333333"
 						}
@@ -90,10 +81,7 @@
 								"type":"text",
 								"text": "54 years old Lorem ipsum, or lipsum as it is sometimes known, is dummy text used.",
 								"options": {
-									"fontSource": {
-										"name": "roboto-regular",
-										"origin": "external"
-									},
+									"fontSource": "roboto-regular",
 									"size": 12,
 									"color": "#333333"
 								}
@@ -124,10 +112,7 @@
 					"text": {
 						"text": "Positive Symptoms",
 						"options": {
-							"fontSource": {
-								"name": "roboto-bold",
-								"origin": "external"
-							},
+							"fontSource": "roboto-bold",
 							"size": 14,
 							"color": "#333333"
 						}
@@ -145,10 +130,7 @@
 								"type":"text",
 								"text": "Foot Pain: ",
 								"options": {
-									"fontSource": {
-										"name": "roboto-bold",
-										"origin": "external"
-									},
+									"fontSource": "roboto-bold",
 									"size": 12,
 									"color": "#333333"
 								}
@@ -157,10 +139,7 @@
 								"type":"text",
 								"text": "Starting Time - In the last month; Side - One side; Made worse by - Standing, Walking; Trend - Worsening; Severity - Severe;",
 								"options": {
-									"fontSource": {
-										"name": "roboto-regular",
-										"origin": "external"
-									},
+									"fontSource": "roboto-regular",
 									"size": 12,
 									"color": "#474747"
 								}
@@ -175,10 +154,7 @@
 					"text": {
 						"text": "Negative Symptoms",
 						"options": {
-							"fontSource": {
-								"name": "roboto-bold",
-								"origin": "external"
-							},
+							"fontSource": "roboto-bold",
 							"size": 14,
 							"color": "#333333"
 						}
@@ -195,10 +171,7 @@
 								"type":"text",
 								"text": "HEENT: ",
 								"options": {
-									"fontSource": {
-										"name": "roboto-bold",
-										"origin": "external"
-									},
+									"fontSource": "roboto-bold",
 									"size": 12,
 									"color": "#333333"
 								}
@@ -207,10 +180,7 @@
 								"type":"text",
 								"text": "Cheek pain",
 								"options": {
-									"fontSource": {
-										"name": "roboto-regular",
-										"origin": "external"
-									},
+									"fontSource": "roboto-regular",
 									"size": 12,
 									"color": "#474747"
 								}
@@ -229,10 +199,7 @@
 								"type":"text",
 								"text": "GI: ",
 								"options": {
-									"fontSource": {
-										"name": "roboto-bold",
-										"origin": "external"
-									},
+									"fontSource": "roboto-bold",
 									"size": 12,
 									"color": "#333333"
 								}
@@ -241,10 +208,7 @@
 								"type":"text",
 								"text": "Bottocks pain",
 								"options": {
-									"fontSource": {
-										"name": "roboto-regular",
-										"origin": "external"
-									},
+									"fontSource": "roboto-regular",
 									"size": 12,
 									"color": "#474747"
 								}
@@ -263,10 +227,7 @@
 								"type":"text",
 								"text": "Musculoskeletal: ",
 								"options": {
-									"fontSource": {
-										"name": "roboto-bold",
-										"origin": "external"
-									},
+									"fontSource": "roboto-bold",
 									"size": 12,
 									"color": "#333333"
 								}
@@ -275,10 +236,7 @@
 								"type":"text",
 								"text": "Joint pain, Joint swelling, Red joint, Back pain",
 								"options": {
-									"fontSource": {
-										"name": "roboto-regular",
-										"origin": "external"
-									},
+									"fontSource": "roboto-regular",
 									"size": 12,
 									"color": "#474747"
 								}
@@ -297,10 +255,7 @@
 								"type":"text",
 								"text": "Extremities: ",
 								"options": {
-									"fontSource": {
-										"name": "roboto-bold",
-										"origin": "external"
-									},
+									"fontSource": "roboto-bold",
 									"size": 12,
 									"color": "#333333"
 								}
@@ -309,10 +264,7 @@
 								"type":"text",
 								"text": "Leg pain, Thigh pain, Knee pain, Ankle pain, Foot swelling",
 								"options": {
-									"fontSource": {
-										"name": "roboto-regular",
-										"origin": "external"
-									},
+									"fontSource": "roboto-regular",
 									"size": 12,
 									"color": "#474747"
 								}
@@ -331,10 +283,7 @@
 								"type":"text",
 								"text": "Genitourinary: ",
 								"options": {
-									"fontSource": {
-										"name": "roboto-bold",
-										"origin": "external"
-									},
+									"fontSource": "roboto-bold",
 									"size": 12,
 									"color": "#333333"
 								}
@@ -343,10 +292,7 @@
 								"type":"text",
 								"text": "Flank pain",
 								"options": {
-									"fontSource": {
-										"name": "roboto-regular",
-										"origin": "external"
-									},
+									"fontSource": "roboto-regular",
 									"size": 12,
 									"color": "#474747"
 								}
@@ -365,10 +311,7 @@
 								"type":"text",
 								"text": "Neuro: ",
 								"options": {
-									"fontSource": {
-										"name": "roboto-bold",
-										"origin": "external"
-									},
+									"fontSource": "roboto-bold",
 									"size": 12,
 									"color": "#333333"
 								}
@@ -377,10 +320,7 @@
 								"type":"text",
 								"text": "Numbness or tingling in feet",
 								"options": {
-									"fontSource": {
-										"name": "roboto-regular",
-										"origin": "external"
-									},
+									"fontSource": "roboto-regular",
 									"size": 12,
 									"color": "#474747"
 								}
@@ -395,10 +335,7 @@
 					"text": {
 						"text": "Doctor Assessment",
 						"options": {
-							"fontSource": {
-								"name": "roboto-bold",
-								"origin": "external"
-							},
+							"fontSource": "roboto-bold",
 							"size": 14,
 							"color": "#333333"
 						}
@@ -416,10 +353,7 @@
 								"type":"text",
 								"text": "These percentages represent how similar patients were diagnosed in the past by healthcare professionals at a leading HMO. They do not indicate the likelihood a patient has any particular condition.",
 								"options": {
-									"fontSource": {
-										"name": "roboto-regular",
-										"origin": "external"
-									},
+									"fontSource": "roboto-regular",
 									"size": 12,
 									"color": "#747474"
 								}
@@ -448,7 +382,7 @@
 						"radius": 20,
 						"options": {
 							"type": "fill",
-							"color": "#DF523F"
+							"color": "#DE321B"
 						}
 					}
 				},
@@ -460,10 +394,7 @@
 					"text": {
 						"text": "57%",
 						"options": {
-							"fontSource": {
-								"name": "roboto-bold",
-								"origin": "external"
-							},
+							"fontSource": "roboto-bold",
 							"size": 14,
 							"color": "white"
 						}
@@ -475,10 +406,7 @@
 					"text": {
 						"text": "General Abdominal Pain NOS",
 						"options": {
-							"fontSource": {
-								"name": "roboto-bold",
-								"origin": "external"
-							},
+							"fontSource": "roboto-bold",
 							"size": 12,
 							"color": "#333333"
 						}
@@ -492,12 +420,9 @@
 						"type":"text",
 						"text": "Serious Health Condition!",
 						"options": {
-							"fontSource": {
-								"name": "roboto-bold",
-								"origin": "external"
-							},
+							"fontSource": "roboto-bold",
 							"size": 12,
-							"color": "#E6716E"
+							"color": "#DE321B"
 						}
 					}
 				},
@@ -509,7 +434,7 @@
 						"radius": 8,
 						"options": {
 							"type": "fill",
-							"color": "#DF523F"
+							"color": "#DE321B"
 						}
 					}
 				},						
@@ -522,10 +447,7 @@
 					"text": {
 						"text": "!",
 						"options": {
-							"fontSource": {
-								"name": "roboto-bold",
-								"origin": "external"
-							},
+							"fontSource": "roboto-bold",
 							"size": 12,
 							"color": "white"
 						}
@@ -553,7 +475,7 @@
 						"radius": 20,
 						"options": {
 							"type": "fill",
-							"color": "#4790F7"
+							"color": "#cc7927"
 						}
 					}
 				},
@@ -565,10 +487,7 @@
 					"text": {
 						"text": "16%",
 						"options": {
-							"fontSource": {
-								"name": "roboto-bold",
-								"origin": "external"
-							},
+							"fontSource": "roboto-bold",
 							"size": 14,
 							"color": "white"
 						}
@@ -580,10 +499,7 @@
 					"text": {
 						"text": "Ovarian Cyst",
 						"options": {
-							"fontSource": {
-								"name": "roboto-bold",
-								"origin": "external"
-							},
+							"fontSource": "roboto-bold",
 							"size": 12,
 							"color": "#333333"
 						}
@@ -611,7 +527,7 @@
 						"radius": 20,
 						"options": {
 							"type": "fill",
-							"color": "#4790F7"
+							"color": "#cc7927"
 						}
 					}
 				},
@@ -623,10 +539,7 @@
 					"text": {
 						"text": "12%",
 						"options": {
-							"fontSource": {
-								"name": "roboto-bold",
-								"origin": "external"
-							},
+							"fontSource": "roboto-bold",
 							"size": 14,
 							"color": "white"
 						}
@@ -638,10 +551,7 @@
 					"text": {
 						"text": "Kidney Stone",
 						"options": {
-							"fontSource": {
-								"name": "roboto-bold",
-								"origin": "external"
-							},
+							"fontSource": "roboto-bold",
 							"size": 12,
 							"color": "#333333"
 						}
@@ -669,7 +579,7 @@
 						"radius": 20,
 						"options": {
 							"type": "fill",
-							"color": "#AACEFB"
+							"color": "#e8d2bc"
 						}
 					}
 				},
@@ -681,10 +591,7 @@
 					"text": {
 						"text": "+",
 						"options": {
-							"fontSource": {
-								"name": "roboto-light",
-								"origin": "external"
-							},
+							"fontSource": "roboto-light",
 							"size": 24,
 							"color": "white"
 						}
@@ -696,10 +603,7 @@
 					"text": {
 						"text": "Other Possibilities",
 						"options": {
-							"fontSource": {
-								"name": "roboto-bold",
-								"origin": "external"
-							},
+							"fontSource": "roboto-bold",
 							"size": 12,
 							"color": "#333333"
 						}
@@ -712,10 +616,7 @@
 						"type":"text",
 						"text": "Lorem ipsum dolor",
 						"options": {
-							"fontSource": {
-								"name": "roboto-regular",
-								"origin": "external"
-							},
+							"fontSource": "roboto-regular",
 							"size": 12,
 							"color": "#474747"
 						}
