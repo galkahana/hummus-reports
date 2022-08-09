@@ -77,6 +77,6 @@ If instead of creating a new PDF you would like to modify an existing PDF, provi
 That label should be a key in the job ticket externals dictionary which value is a url to a PDF file - the PDF that you wish to modify.
 
 Modification allows you to add new pages to the document by describing them in the `pages` array. Any page object will create a page that will be appended o the document.
-You can also modify existing pages, adding content on top of their existing content. More on this in <a ui-sref="documentation.jobticket.pages">Pages</a>.
+You can also modify existing pages, adding content on top of their existing content. More on this in [Pages](./job-ticket-pages.md).
 
 If the source document requires a password for opening it, use a `protection` object, as you would with a new object. Provide only `userPassword` in this case.
