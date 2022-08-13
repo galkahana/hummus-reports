@@ -1,6 +1,6 @@
 {
   "name": "hummus-reports",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Layout engine over hummus pdf library",
   "main": "index.js",
   "publishConfig": {
