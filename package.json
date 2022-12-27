@@ -1,6 +1,6 @@
 {
   "name": "hummus-reports",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Layout engine over hummus pdf library",
   "main": "index.js",
   "publishConfig": {
@@ -32,7 +32,7 @@
   },
   "dependencies": {
     "@galkahana/unicode-bidirectional": "^2.0.6",
-    "hummus": "^1.0.111",
+    "hummus": "^1.0.112",
     "lodash": "^4.17.19"
   }
 }
