@@ -21,7 +21,6 @@
     "pdf",
     "pdfhummus"
   ],
-  "readmeFilename": "README.md",
   "license": "Apache-2.0",
   "author": "Gal Kahana <gal.kahana@hotmail.com>",
   "devDependencies": {
