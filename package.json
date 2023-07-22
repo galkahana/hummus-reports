@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "@galkahana/unicode-bidirectional": "^2.0.6",
-    "hummus": "^1.0.115",
+    "hummus": "^1.0.116",
     "lodash": "^4.17.19"
   }
 }
